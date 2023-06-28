@@ -110,7 +110,8 @@ function displayHBar(sample) {
           y: yticks,
           text: labels,
           type: "bar",
-          orientation: "h"
+          orientation: "h",
+          marker: {color: "lightgreen"}
       };
 
       // Setup the layout
